@@ -17,6 +17,8 @@ JDBC (Add to your project Classpath)
 Before running the application, you must create a database and execute the provided SQL script.
 Open pgAdmin or use the PostgreSQL command line and execute the following command:
 
+------------------------------------------------------------------------------------------
+
 create table tb_cliente (
 	id bigint,
 	nome varchar(50) not null,
